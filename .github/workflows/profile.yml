@@ -1,0 +1,34 @@
+name: Refresh profile visuals
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-profile-visuals.py
+      - .github/workflows/profile.yml
+permissions:
+  contents: write
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate dated SVG cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/generate-profile-visuals.py
+      - name: Save updated visuals
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/github-stats.svg assets/languages.svg assets/activity.svg assets/snapshot.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh GitHub profile data snapshot'
+            git push
+          fi
