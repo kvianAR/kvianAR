@@ -54,10 +54,10 @@ The employee attrition repository is a **fork of [oksaumya/Employee_Attrition_An
 
 <p align="center"><sub>Also used in my repositories: Gemini API · Mongoose · Recharts · ESLint · GitHub Actions</sub></p>
 
-## 📊 GitHub Snapshot
 
-<p align="center"><img src="assets/github-stats.svg" alt="GitHub activity snapshot with public repository, project and contribution totals" width="100%" /></p>
-<p align="center"><img src="assets/languages.svg" alt="Language distribution across original public project repositories, measured in source bytes" width="100%" /></p>
+
+<!-- <p align="center"><img src="assets/github-stats.svg" alt="GitHub activity snapshot with public repository, project and contribution totals" width="100%" /></p> --> ## 📊 GitHub Snapshot
+<!-- <p align="center"><img src="assets/languages.svg" alt="Language distribution across original public project repositories, measured in source bytes" width="100%" /></p> -->
 <!-- <p align="center"><img src="assets/activity.svg" alt="Contribution calendar generated from the GitHub API" width="100%" /></p> -->
 
 <!-- <p align="center"><sub>Actual GitHub API data; snapshot date is shown on the cards. Language percentages describe repository source bytes, not proficiency. Refresh with the repository's “Refresh profile visuals” workflow.</sub></p> -->
