@@ -78,6 +78,4 @@ You can find the source, setup instructions and project limitations in each repo
 
 </details>
 
----
-
 <p align="center"><sub>Build something useful. Make it clear. Keep improving.</sub></p>
