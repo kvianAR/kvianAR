@@ -19,7 +19,7 @@
 
 ## Hey, I'm Aditya 👋
 
-I build full-stack web applications and explore practical uses of AI. My projects span an AI study companion, a step-tracking app, and a portfolio built with HTML and CSS. I enjoy turning an idea into a usable interface, connecting it to an API, and improving the details that make it easier to use.
+I build full-stack web applications and explore practical uses of AI. My projects span an AI study companion, a step-tracking app, and a portfolio built with HTML and CSS. I enjoy turning an idea into a usable interface, connecting it to an API, and improving the details that make it easier to use.I am Also a Freelancer.
 
 **Open to developer internships and junior developer roles**, with an interest in freelance web projects and collaboration. Reach me on [LinkedIn](https://www.linkedin.com/in/aditya-ranjan-37a827323/).
 
